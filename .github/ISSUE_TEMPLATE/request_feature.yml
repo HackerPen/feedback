@@ -1,0 +1,25 @@
+name: Request a new feature
+description: 'Have a feature that you think the product should have?'
+labels: [feature-request]
+body:
+  - type: textarea
+    id: 'request'
+    attributes:
+      label: 'What is your request?'
+      render: shell
+    validations:
+      required: true
+  - type: textarea
+    id: 'value'
+    attributes:
+      label: 'What is the value add for adding this to HackerPen?'
+      render: shell
+    validations:
+      required: false
+  - type: textarea
+    id: 'context'
+    attributes:
+      label: 'Additional context'
+      description: 'Add any other context about the feature request?'
+    validations:
+      required: false
