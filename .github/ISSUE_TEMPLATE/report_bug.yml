@@ -1,4 +1,4 @@
-name: Request a bug
+name: Report a bug
 description: 'Something of the product is not working? File a bug report.'
 labels: [bug-report]
 body:
